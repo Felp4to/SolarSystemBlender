@@ -1,6 +1,6 @@
 # 🌌 Solar System
 
-> Progetto di Computer Graphics – Anno Accademico 2024/2025  
+> Anno Accademico: 2024/2025  
 > Università: Roma TRE    
 > Curriculum: Intelligenza artificiale e Machine Learning   
 > Corso: Computer Graphics  
