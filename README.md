@@ -1,11 +1,12 @@
 # 🌌 Solar System
 
 > Progetto di Computer Graphics – Anno Accademico 2024/2025  
-> Università: [Inserisci il nome della tua università]  
-> Corso: [Inserisci il nome del corso o del docente]  
+> Università: Roma TRE
+> Curriculum: Intelligenza artificiale e Machine Learning
+> Corso: Computer Graphics 
 > Autore: **Paolo Tardioli**  
 > Matricola: **571467**  
-> Progetto svolto **individualmente**
+> Progetto svolto: **Individuale** 
 
 ---
 
@@ -14,12 +15,14 @@
 **Solar System** è un progetto di modellazione e animazione 3D del sistema solare, realizzato come elaborato per il corso di Computer Graphics.  
 La scena rappresenta i pianeti principali, le loro lune e il Sole, con proporzioni e distanze semplificate, ma animazioni coerenti che simulano i moti orbitali e di rotazione.
 
+![Testo alternativo](screenshots/blender_view_5.png)
+
 ---
 
 ## 🛠️ Tecnologie Utilizzate
 
 - **Blender** – Modellazione 3D, animazione, gestione della camera e illuminazione
-
+- **ClipVideo** - Concatenazione delle clip per ottenere il render finale
 ---
 
 ## 🎮 Come Usarlo
@@ -34,7 +37,7 @@ La scena rappresenta i pianeti principali, le loro lune e il Sole, con proporzio
 ## ⏱️ Durata Animazione
 
 L’animazione si estende su **1250 frame**.  
-Con un frame rate di **24 fps**, la durata complessiva è di circa **52 secondi**.
+Con un frame rate di **60 fps**, la durata complessiva è di circa **41 secondi** (video rallentato a 0.5x).
 
 ---
 
@@ -50,8 +53,7 @@ La scena è composta da **pianeti**, **lune** e **il Sole**, tutti modellati com
 ### Movimento della telecamera:
 
 1. **Panoramica iniziale**: la camera si muove frontalmente attraversando la scena per mostrare tutti i corpi celesti.
-2. **Inquadratura globale**: si allontana per inquadrare l’intero sistema solare.
-3. **Animazione orbitale**: ruota attorno al Sole mentre quest’ultimo si muove verso il basso e poi ritorna alla sua posizione iniziale.
+2. **Inquadratura globale**: si allontana per inquadrare l’intero sistema solare per poi riavvicinarsi agli elementi di scena mostrando una inquadratura semi laterale.
 
 ---
 
@@ -59,6 +61,8 @@ La scena è composta da **pianeti**, **lune** e **il Sole**, tutti modellati com
 
 Il **Sole** funge da fonte di **illuminazione radiale**, distribuita uniformemente in tutte le direzioni a partire dalla sua superficie.  
 Questo consente di ottenere una luce coerente su tutti gli oggetti della scena, simulando una fonte luminosa centrale naturale.
+
+![Testo alternativo](screenshots/blender_view_4.png)
 
 ---
 
@@ -76,13 +80,20 @@ Le texture sono **immagini rettangolari equirettangolari** (UV map) applicate su
 
 ## 📁 File Inclusi
 
-- `solar_system.blend` – File principale con la scena, animazioni, camera e materiali.
+- `model/` – Cartella contenente il file `.blend` principale del progetto.
+- `model.blend1` – Backup automatico del file Blender.
+- `textures/` – Cartella contenente le texture dei pianeti.
+- `solarsystem.mkv` – Video finale dell’animazione completa del sistema solare (frame 0–1250)
+- `SolarSystem_0_600.mkv` – Prima parte dell’animazione (frame 0–600).
+- `SolarSystem_600_1250.mkv` – Seconda parte dell’animazione (frame 600–1250).
+- `README.md` – Documento descrittivo del progetto e delle sue componenti.
+
+> Le due clip parziali sono state concatenate per formare il video `solarsystem.mkv` usando clipvideo.com.
 
 ---
 
 ## 📌 Note Finali
 
-Il progetto ha finalità **educative e dimostrative**.  
 La scala, le dimensioni e le traiettorie sono state **semplificate** per garantire una resa visiva chiara e funzionale alla presentazione dei concetti base del sistema solare in ambito 3D.
 
 ---
