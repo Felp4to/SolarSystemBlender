@@ -81,20 +81,18 @@ Le texture sono **immagini rettangolari equirettangolari** (UV map) applicate su
 
 ## 📁 File Inclusi
 
+- `screenshots/` – Cartella contenente immagini o anteprime dell’animazione.
+- `textures/` – Cartella contenente le texture dei pianeti.
+- `.gitignore` – File per escludere elementi non rilevanti dal controllo versione.
 - `model/` – Cartella contenente il file `.blend` principale del progetto.
 - `model.blend1` – Backup automatico del file Blender.
-- `textures/` – Cartella contenente le texture dei pianeti.
-- `solarsystem.mkv` – Video finale dell’animazione completa del sistema solare (frame 0–1250)
+- `README` – Questo file, descrive il progetto e le sue componenti.
+- `solarsystem.mkv` – Video finale dell’animazione completa del sistema solare (frame 0–1250).
 - `SolarSystem_0_600.mkv` – Prima parte dell’animazione (frame 0–600).
 - `SolarSystem_600_1250.mkv` – Seconda parte dell’animazione (frame 600–1250).
-- `README.md` – Documento descrittivo del progetto e delle sue componenti.
+- `SolarSystemVideo_Paolo_Tardioli_571467.mp4` – Versione esportata o convertita dell’animazione completa
 
 > Le due clip parziali sono state concatenate per formare il video `solarsystem.mkv` usando clipvideo.com.
 
 ---
 
-## 📌 Note Finali
-
-La scala, le dimensioni e le traiettorie sono state **semplificate** per garantire una resa visiva chiara e funzionale alla presentazione dei concetti base del sistema solare in ambito 3D.
-
----
