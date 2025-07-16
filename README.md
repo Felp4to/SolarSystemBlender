@@ -22,7 +22,8 @@ La scena rappresenta i pianeti principali, le loro lune e il Sole, con proporzio
 ## 🛠️ Tecnologie Utilizzate
 
 - **Blender** – Modellazione 3D, animazione, gestione della camera e illuminazione
-- **ClipVideo** - Concatenazione delle clip per ottenere il render finale
+- **ClipVideo** - Concatenazione delle clip per ottenere il render finale  
+- **Git** - Versionamento
 ---
 
 ## 🎮 Come Usarlo
