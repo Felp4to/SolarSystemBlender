@@ -13,9 +13,9 @@
 ## 📖 Descrizione
 
 **Solar System** è un progetto di modellazione e animazione 3D del sistema solare, realizzato come elaborato per il corso di Computer Graphics.  
-La scena rappresenta i pianeti principali, le loro lune e il Sole, con proporzioni e distanze semplificate, ma animazioni coerenti che simulano i moti orbitali e di rotazione.
+La scena rappresenta i pianeti principali, le loro lune e il Sole, con proporzioni, distanze e animazioni semplificate che simulano i moti orbitali e di rotazione.
 
-![Testo alternativo](screenshots/blender_view_5.png)
+![Vista del sistema solare](screenshots/blender_view_5.png)
 
 ---
 
@@ -62,7 +62,7 @@ La scena è composta da **pianeti**, **lune** e **il Sole**, tutti modellati com
 Il **Sole** funge da fonte di **illuminazione radiale**, distribuita uniformemente in tutte le direzioni a partire dalla sua superficie.  
 Questo consente di ottenere una luce coerente su tutti gli oggetti della scena, simulando una fonte luminosa centrale naturale.
 
-![Testo alternativo](screenshots/blender_view_4.png)
+![Vista dello shading](screenshots/blender_view_4.png)
 
 ---
 
