@@ -1,9 +1,9 @@
 # 🌌 Solar System
 
 > Progetto di Computer Graphics – Anno Accademico 2024/2025  
-> Università: Roma TRE
-> Curriculum: Intelligenza artificiale e Machine Learning
-> Corso: Computer Graphics 
+> Università: Roma TRE    
+> Curriculum: Intelligenza artificiale e Machine Learning   
+> Corso: Computer Graphics  
 > Autore: **Paolo Tardioli**  
 > Matricola: **571467**  
 > Progetto svolto: **Individuale** 
